@@ -35,7 +35,7 @@ describe('Controller: DnaFrequenciesCtrl', function () {
 
 
     it('should allow to check errors in form', function () {
-        var field = { $dirty: true, $error: { required: true } };
+        var field = { $dirty: true, $error: { required: true }, $viewValue: '' };
 
         var hasError = scope.hasError(field, 'required');
 
@@ -44,7 +44,7 @@ describe('Controller: DnaFrequenciesCtrl', function () {
 
 
     it('should hide errors when form is fresh', function () {
-        var field = { $dirty: false, $error: { required: true } };
+        var field = { $dirty: false, $error: { required: true }, $viewValue: '' };
 
         var hasError = scope.hasError(field, 'required');
 

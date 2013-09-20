@@ -41,9 +41,9 @@
          *
          * @returns {Array} Arrays that contains C, G, T, A symbols frequencies in DNA sequence
          */
-        self.frequencies = function () {
+        self.frequencies = _.memoize(function () {
             return _(['C', 'G','T', 'A']).map(_.partial(calculatePercentage, self.sequence));
-        };
+        });
     }
 
 

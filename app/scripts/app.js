@@ -6,6 +6,7 @@
             'binaApp.controllers.dna-frequencies',
             'ui.bootstrap.tooltip',
             'ui.bootstrap.progressbar',
+            'ui.directives'
         ])
 
         .config(function ($routeProvider) {

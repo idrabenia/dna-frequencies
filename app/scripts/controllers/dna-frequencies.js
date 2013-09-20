@@ -33,7 +33,7 @@
              * @returns {boolean} returns true if field is not pass validation; otherwise returns false.
              */
             $scope.hasError = function(field, type) {
-                return field.$dirty && field.$error[type];
+                return field.$dirty && field.$error[type] && field.$viewValue != null;
             };
 
         }]);

@@ -12,7 +12,7 @@ describe('DNA', function () {
         DnaConstructor = Dna;
     }));
 
-    it('should calculate frequencies of specified symbol', function () {
+    it('should calculate frequencies of symbols in specified sequence', function () {
         var dna = new DnaConstructor('AACCTTGG');
 
         var frequencies = dna.frequencies();
