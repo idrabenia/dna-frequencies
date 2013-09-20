@@ -1,9 +1,13 @@
 (function () {
     'use strict';
 
-    angular.module('binaApp.controller.dna-frequences', ['binaApp.model.dna'])
+    angular.module('binaApp.controllers.dna-frequencies', [
+            'ui.bootstrap.tooltip',
+            'ui.bootstrap.progressbar',
+            'binaApp.models.dna'
+        ])
 
-        .controller('MainCtrl', ['$scope', 'Dna', function ($scope, Dna) {
+        .controller('DnaFrequenciesCtrl', ['$scope', 'Dna', function ($scope, Dna) {
 
             function init () {
                 $scope.dnaList = [];
@@ -12,7 +16,7 @@
 
             init();
 
-            $scope.addDna = function () {
+            $scope.addDna = function (form) {
                 $scope.dnaList.push($scope.newDna);
                 $scope.newDna = new Dna();
             };
