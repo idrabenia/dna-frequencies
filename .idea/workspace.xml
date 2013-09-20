@@ -30,7 +30,7 @@
     <file path="$PROJECT_DIR$/../Co2Co/586_Co_2_Co/webclient/src/components/modules/transactions/transactions/grouped-transactions/grouped-transactions.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379681074452" ignored="false" />
     <file path="$PROJECT_DIR$/../Co2Co/586_Co_2_Co/webclient/src/components/modules/transactions/transactions/transactions.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379681074453" ignored="false" />
     <file path="/.gitignore" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379682361725" ignored="false" />
-    <file path="/README.md" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379682978791" ignored="false" />
+    <file path="/README.md" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379683211797" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +121,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="14" selection-start="29" selection-end="29" vertical-scroll-proportion="0.019473081">
+            <state line="16" column="31" selection-start="358" selection-end="358" vertical-scroll-proportion="0.3115693">
               <folding />
             </state>
           </provider>
@@ -790,7 +790,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="29" selection-end="29" vertical-scroll-proportion="0.019473081">
+        <state line="16" column="31" selection-start="358" selection-end="358" vertical-scroll-proportion="0.3115693">
           <folding />
         </state>
       </provider>
