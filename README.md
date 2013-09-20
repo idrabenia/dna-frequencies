@@ -1,7 +1,7 @@
 dna-frequences
 ==============
 
-#### Technologies:
+#### Technologies
   - [Angular.js]
   - [Underscore]
   - [Twitter Bootstrap]
