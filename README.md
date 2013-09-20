@@ -1,6 +1,5 @@
 dna-frequences
 ==============
-####Live demo: [zij.github.io/backbone-genetics](http://zij.github.io/backbone-genetics)
 
 #### Technologies:
   - [Angular.js]
