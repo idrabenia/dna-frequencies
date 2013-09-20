@@ -256,7 +256,7 @@ module.exports = function (grunt) {
         files: [{
           expand: true,
           cwd: '<%= yeoman.app %>',
-          src: ['*.html', 'views/*.html'],
+          src: ['*.html', 'views/*.html', 'template/**/*.html'],
           dest: '<%= yeoman.dist %>'
         }]
       }
@@ -357,6 +357,10 @@ module.exports = function (grunt) {
       'open',
       'watch'
     ]);
+  });
+
+  grunt.registerTask('dist-server', function (target) {
+    return grunt.task.run(['build', 'open', 'connect:dist:keepalive']);
   });
 
   grunt.registerTask('test', [
