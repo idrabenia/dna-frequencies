@@ -13,7 +13,7 @@ dna-frequences
   - [SCSS]
 
 ### Build instructions
-  - Need to install node.js, npm, bower, yeoman, ruby and compass gem
-  - Next need switch to application folder and execute "npm install"
-  - For run application need to execute "grunt server"
-  - For run unit test need to execute "grunt test"
+  - Install node.js, npm, bower, yeoman, ruby and compass gem
+  - Switch to application folder and execute "npm install"
+  - For run application need execute "grunt server"
+  - For run unit test need execute "grunt test"

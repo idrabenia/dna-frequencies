@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d780168-ddbb-4352-b18c-bd599d047180" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="bina.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,7 +30,7 @@
     <file path="$PROJECT_DIR$/../Co2Co/586_Co_2_Co/webclient/src/components/modules/transactions/transactions/grouped-transactions/grouped-transactions.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379681074452" ignored="false" />
     <file path="$PROJECT_DIR$/../Co2Co/586_Co_2_Co/webclient/src/components/modules/transactions/transactions/transactions.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379681074453" ignored="false" />
     <file path="/.gitignore" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379682361725" ignored="false" />
-    <file path="/README.md" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379682889787" ignored="false" />
+    <file path="/README.md" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379682942573" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +121,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="68" selection-start="419" selection-end="419" vertical-scroll-proportion="0.3115693">
+            <state line="18" column="26" selection-start="480" selection-end="480" vertical-scroll-proportion="0.35051546">
               <folding />
             </state>
           </provider>
@@ -791,7 +790,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="68" selection-start="419" selection-end="419" vertical-scroll-proportion="0.3115693">
+        <state line="18" column="26" selection-start="480" selection-end="480" vertical-scroll-proportion="0.35051546">
           <folding />
         </state>
       </provider>
