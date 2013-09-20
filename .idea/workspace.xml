@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d780168-ddbb-4352-b18c-bd599d047180" name="Default" comment="Fix dist building">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
+    <list default="true" id="7d780168-ddbb-4352-b18c-bd599d047180" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bina.iws" />
@@ -11,7 +11,7 @@
     <file path="/main.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379668155360" ignored="false" />
     <file path="/main.html" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379618003293" ignored="false" />
     <file path="/app.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379668270281" ignored="false" />
-    <file path="/Dummy.txt" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379687533319" ignored="false" />
+    <file path="/Dummy.txt" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379689873157" ignored="false" />
     <file path="/dna.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379685681035" ignored="false" />
     <file path="/dna-frequences.html" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379678090725" ignored="false" />
     <file path="/main.scss" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379674906431" ignored="false" />
@@ -31,7 +31,7 @@
     <file path="$PROJECT_DIR$/../Co2Co/586_Co_2_Co/webclient/src/components/modules/transactions/transactions/grouped-transactions/grouped-transactions.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379681074452" ignored="false" />
     <file path="$PROJECT_DIR$/../Co2Co/586_Co_2_Co/webclient/src/components/modules/transactions/transactions/transactions.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379681074453" ignored="false" />
     <file path="/.gitignore" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379682361725" ignored="false" />
-    <file path="/README.md" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379683211797" ignored="false" />
+    <file path="/README.md" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379690117655" ignored="false" />
     <file path="/dna-frequencies.specs.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379685881633" ignored="false" />
     <file path="/Gruntfile.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379686604707" ignored="false" />
     <file path="/a.dummy" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379689281743" ignored="false" />
@@ -167,10 +167,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="20" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.8544194">
+            <state line="53" column="20" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.058925476">
               <folding />
             </state>
           </provider>
@@ -198,7 +207,6 @@
         <option value="$PROJECT_DIR$/karma.conf.js" />
         <option value="$PROJECT_DIR$/test/spec/controllers/dna-frequencies.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/test/spec/models/dna.specs.js" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/views/dna-frequencies.html" />
@@ -210,6 +218,7 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/app/template/progressbar/bar.html" />
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -453,7 +462,11 @@
       <created>1379687232974</created>
       <updated>1379687232974</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Style fixes">
+      <created>1379689878794</created>
+      <updated>1379689878794</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -530,7 +543,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix dist building" />
+    <option name="LAST_COMMIT_MESSAGE" value="Style fixes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -547,18 +560,12 @@
     <MESSAGE value="Rename test files using single pattern" />
     <MESSAGE value="Fix issue with form validation" />
     <MESSAGE value="Fix dist building" />
+    <MESSAGE value="Style fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="53" selection-start="920" selection-end="920" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/dna-frequencies.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="24" selection-start="1092" selection-end="1092" vertical-scroll-proportion="-17.0">
@@ -659,7 +666,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="20" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.8544194">
+        <state line="53" column="20" selection-start="1103" selection-end="1103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="0.058925476">
           <folding />
         </state>
       </provider>

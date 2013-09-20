@@ -1,5 +1,7 @@
-dna-frequences
+dna-frequencies
 ==============
+
+[LiveDemo](http://idrabenia.github.io/dna-frequencies/index.html)
 
 #### Technologies
   - Angular.js
