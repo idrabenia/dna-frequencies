@@ -1,13 +1,21 @@
-'use strict';
+(function () {
+    'use strict';
 
-angular.module('binaApp', ['ui.bootstrap.progressbar'])
-    .config(function ($routeProvider) {
-        $routeProvider
-            .when('/', {
-                templateUrl: 'views/main.html',
-                controller: 'MainCtrl'
-            })
-            .otherwise({
-                redirectTo: '/'
-            });
-    });
+
+    angular.module('binaApp', [
+            'binaApp.controllers.dna-frequencies',
+            'ui.bootstrap.tooltip',
+            'ui.bootstrap.progressbar',
+        ])
+
+        .config(function ($routeProvider) {
+            $routeProvider
+                .when('/', {
+                    templateUrl: 'views/dna-frequencies.html',
+                    controller: 'DnaFrequenciesCtrl'
+                })
+                .otherwise({
+                    redirectTo: '/'
+                });
+        });
+})();

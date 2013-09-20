@@ -2,8 +2,6 @@
     'use strict';
 
     angular.module('binaApp.controllers.dna-frequencies', [
-            'ui.bootstrap.tooltip',
-            'ui.bootstrap.progressbar',
             'binaApp.models.dna'
         ])
 
@@ -16,9 +14,13 @@
 
             init();
 
-            $scope.addDna = function (form) {
+            $scope.addDna = function () {
                 $scope.dnaList.push($scope.newDna);
                 $scope.newDna = new Dna();
+            };
+
+            $scope.hasError = function(field, type) {
+                return field.$dirty && field.$error[type];
             };
 
         }]);

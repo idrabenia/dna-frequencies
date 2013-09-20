@@ -14,10 +14,10 @@
                            ng-pattern="/^([ATGC]*)$/"
                            pattern="[ATGC]*" />
 
-                    <span ng-show="form.sequence.$dirty && form.sequence.$error.required" class="error"
+                    <span ng-show="hasError(form.sequence, 'required')" class="error"
                           title="Sequence is required">&nbsp;
                     </span>
-                    <span ng-show="form.sequence.$dirty && form.sequence.$error.pattern"
+                    <span ng-show="hasError(form.sequence, 'pattern')"
                           class="error"
                           title="Sequence must contain only A, T, G, C symbols">&nbsp;
                     </span>
@@ -34,7 +34,7 @@
         </form>
     </div>
 
-    <div class="row">
+    <div class="row" ng-show="dnaList.length > 0">
         <table class="table dna-sequences-table">
             <thead>
                 <tr>
@@ -44,7 +44,7 @@
             </thead>
             <tbody>
                 <tr ng-repeat="curDna in dnaList">
-                    <td class="sequence-cell" tooltip="{{curDna.sequence}}">{{curDna.sequence}}</td>
+                    <td class="sequence-cell" title="{{curDna.sequence}}">{{curDna.sequence}}</td>
                     <td class="percentage-cell">
                         <div progress="" percent="curDna.frequencies()" auto-type="true"></div>
                     </td>
