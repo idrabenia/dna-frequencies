@@ -42,6 +42,7 @@ describe('Controller: DnaFrequenciesCtrl', function () {
         expect(hasError).toBe(true);
     });
 
+
     it('should hide errors when form is fresh', function () {
         var field = { $dirty: false, $error: { required: true } };
 

@@ -33,7 +33,7 @@
                 }
             });
 
-            return countOfCharacters / dna.length * 100;
+            return (dna.length > 0) ? countOfCharacters / dna.length * 100 : 0;
         }
 
         /**

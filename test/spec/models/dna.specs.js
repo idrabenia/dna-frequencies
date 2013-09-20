@@ -18,9 +18,24 @@ describe('DNA', function () {
         var frequencies = dna.frequencies();
 
         /* 'C', 'G','T', 'A' */
-        expect(frequencies[0]).toBe(25);
-        expect(frequencies[1]).toBe(25);
-        expect(frequencies[2]).toBe(25);
-        expect(frequencies[3]).toBe(25);
+        expect(frequencies).toEqual([25, 25, 25, 25]);
     });
+
+    it('should return zero percentage if symbol is not exists in sequence', function () {
+        var dna = new DnaConstructor('AACC');
+
+        var frequencies = dna.frequencies();
+
+        /* 'C', 'G','T', 'A' */
+        expect(frequencies).toEqual([50, 0, 0, 50]);
+    });
+
+    it('should return zero percentages for empty string', function () {
+        var dna = new DnaConstructor('');
+
+        var frequencies = dna.frequencies();
+
+        expect(frequencies).toEqual([0, 0, 0, 0]);
+    });
+
 });

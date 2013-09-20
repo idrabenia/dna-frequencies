@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d780168-ddbb-4352-b18c-bd599d047180" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/dna-frequencies.html" afterPath="$PROJECT_DIR$/app/views/dna-frequencies.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/dna-frequencies.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/dna-frequencies.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/controllers/dna-frequencies.js" afterPath="$PROJECT_DIR$/test/spec/controllers/dna-frequencies.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/models/dna.js" afterPath="$PROJECT_DIR$/app/scripts/models/dna.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/spec/models/dna.specs.js" afterPath="$PROJECT_DIR$/test/spec/models/dna.specs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/karma.conf.js" afterPath="$PROJECT_DIR$/karma.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bina.iws" />
@@ -22,11 +14,11 @@
     <file path="/main.html" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379618003293" ignored="false" />
     <file path="/app.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379668270281" ignored="false" />
     <file path="/Dummy.txt" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379618569721" ignored="false" />
-    <file path="/dna.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379678320338" ignored="false" />
+    <file path="/dna.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379681852258" ignored="false" />
     <file path="/dna-frequences.html" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379678090725" ignored="false" />
     <file path="/main.scss" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379674906431" ignored="false" />
     <file path="/dna-frequences.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379674194877" ignored="false" />
-    <file path="/dna.specs.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379679274876" ignored="false" />
+    <file path="/dna.specs.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379681750254" ignored="false" />
     <file path="/karma.conf.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379679365702" ignored="false" />
     <file path="/dna-frequencies.js" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379681349766" ignored="false" />
     <file path="/dna-frequencies.html" changelist="7d780168-ddbb-4352-b18c-bd599d047180" time="1379680572599" ignored="false" />
@@ -118,10 +110,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dna-frequencies.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="dna-frequencies.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/spec/controllers/dna-frequencies.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="7" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.82474226">
+            <state line="32" column="47" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,7 +122,7 @@
       <file leaf-file-name="dna.specs.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/spec/models/dna.specs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="43" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
+            <state line="37" column="54" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -174,10 +166,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dna.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="dna.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/scripts/models/dna.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="84" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
+            <state line="21" column="78" selection-start="457" selection-end="457" vertical-scroll-proportion="0.22107674">
               <folding />
             </state>
           </provider>
@@ -216,16 +208,16 @@
         <option value="$PROJECT_DIR$/app/styles/main.scss" />
         <option value="$PROJECT_DIR$/app/views/dna-frequences.html" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/dna-frequences.js" />
-        <option value="$PROJECT_DIR$/app/scripts/models/dna.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/test/runner.html" />
         <option value="$PROJECT_DIR$/test/spec/controllers/main.js" />
-        <option value="$PROJECT_DIR$/test/spec/models/dna.specs.js" />
         <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/karma.conf.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/dna-frequencies.js" />
         <option value="$PROJECT_DIR$/app/views/dna-frequencies.html" />
         <option value="$PROJECT_DIR$/test/spec/controllers/dna-frequencies.js" />
+        <option value="$PROJECT_DIR$/test/spec/models/dna.specs.js" />
+        <option value="$PROJECT_DIR$/app/scripts/models/dna.js" />
       </list>
     </option>
   </component>
@@ -787,20 +779,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/models/dna.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="84" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/spec/models/dna.specs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/controllers/dna-frequencies.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="58" selection-start="637" selection-end="637" vertical-scroll-proportion="0.0">
@@ -817,7 +795,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/spec/controllers/dna-frequencies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="7" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.82474226">
+        <state line="32" column="47" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/spec/models/dna.specs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="54" selection-start="1037" selection-end="1037" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/models/dna.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="78" selection-start="457" selection-end="457" vertical-scroll-proportion="0.22107674">
           <folding />
         </state>
       </provider>
