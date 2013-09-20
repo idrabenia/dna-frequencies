@@ -1,0 +1,46 @@
+<div class="hero-unit">
+    <div class="row">
+        <form class="form-horizontal" name="form">
+
+            <!-- Sequence Field -->
+            <div class="control-group">
+                <label class="control-label" for="sequenceField">Sequence: </label>
+                <div class="controls">
+                    <input id="sequenceField" name="sequence" type="text" required="" data-ng-model="newDna.sequence" ng-pattern="/^([ATGC]*)$/" pattern="[ATGC]*">
+
+                    <span ng-show="hasError(form.sequence, 'required')" class="error" title="Sequence is required">&nbsp;
+                    </span>
+                    <span ng-show="hasError(form.sequence, 'pattern')" class="error" title="Sequence must contain only A, T, G, C symbols">&nbsp;
+                    </span>
+                </div>
+            </div>
+
+            <!-- Add Button -->
+            <div class="control-group">
+                <button type="submit" class="btn btn-primary" ng-click="addDna(form)" ng-disabled="!form.$valid">
+                    Add
+                </button>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="row" ng-show="dnaList.length > 0">
+        <table class="table dna-sequences-table">
+            <thead>
+                <tr>
+                    <th>Sequence</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="curDna in dnaList">
+                    <td class="sequence-cell" title="{{curDna.sequence}}">{{curDna.sequence}}</td>
+                    <td class="percentage-cell">
+                        <div progress="" percent="curDna.frequencies()" auto-type="true"></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
