@@ -16,4 +16,4 @@ dna-frequences
   - Install node.js, npm, bower, yeoman, ruby and compass gem
   - Switch to application folder and execute "npm install"
   - For run application need execute "grunt server"
-  - For run unit test need execute "grunt test"
+  - For run unit tests need execute "grunt test"
